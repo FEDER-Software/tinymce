@@ -26,8 +26,13 @@ mcmanager
 #*.min.js
 *.dev.js
 *.full.js
-*.min.css
 skin.less
 skin.dev.less
 skin.ie7.less
 skin.ie7.dev.less
+
+# Ausnahme zu regel
+*.min.css
+!js/tinymce/skins/lightgray/skin.min.css
+!js/tinymce/skins/lightgray/content.min.css
+
